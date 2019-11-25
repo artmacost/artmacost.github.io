@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+<!-- Load an icon library to show a hamburger menu (bars) on small screens -->
+<link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="css/style.css">
+<title>Madeline Armacost</title>
+</head>
+<body>
+<!--Navbar-->
+<div class="topnav" id="myTopnav">
+  <a href="index.html" class="active">Home</a>
+  <a href="art.html">Drawings</a>
+  <a href="paintings.html">Paintings<a/>
+  <a href="digital.html">Art 74</a>
+  <a href="about.html">About</a>
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i>
+  </a>
+</div>
+<!--end nav -->
+<div class="flex-container">
+<h1>Paintings</h1>
+
+</body>
+</html>
+
+<div class="first">
+
+<img src="img/oilpainting.jpg">
+
+<img src="img/joshuatree.jpg">
+
+<img src="img/tulips.jpg">
+
+<img src="img/bouquet.jpg">
+
+</div>
+<!--makes smushed menu interactive DONT TOUCH-->
+	<script>
+function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
+</script>
+</div>
+</body>
+</html> 
